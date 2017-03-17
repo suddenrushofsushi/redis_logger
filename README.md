@@ -1,6 +1,6 @@
 # RedisLogger [![Build Status](https://travis-ci.org/suddenrushofsushi/redis_logger.svg?branch=master)](https://travis-ci.org/suddenrushofsushi/redis_logger)
 
-A Redis based backend for Logger which pushes to a SortedSet.
+A [Redis](https://redis.io/) based backend for Logger which pushes to a SortedSet.
 
 ## Configuration
 
