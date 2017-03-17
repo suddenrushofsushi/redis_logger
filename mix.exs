@@ -27,7 +27,7 @@ defmodule RedisLogger.Mixfile do
   defp deps do
     [
       {:redix, ">= 0.0.0"},
-      {:poison, ">= 3.0"},
+      {:poison, ">= 3.0.0"},
       {:credo, "~> 0.4", only: [:dev, :test]},
       {:ex_doc, "~> 0.14", only: :dev, runtime: false}
     ]
