@@ -27,6 +27,8 @@ You know what to do.
 ## Todo
 
 - [ ] Expiration of log items
+- [ ] Add specs
+- [ ] Ensure Credo passes
 
 ## Tests or Contributions
 
