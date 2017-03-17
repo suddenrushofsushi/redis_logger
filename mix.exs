@@ -4,7 +4,7 @@ defmodule RedisLogger.Mixfile do
   def project do
     [
       app: :redis_logger,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.4",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
@@ -27,7 +27,7 @@ defmodule RedisLogger.Mixfile do
   defp deps do
     [
       {:redix, ">= 0.0.0"},
-      {:poison, ">= 3.0.0"},
+      {:poison, ">= 2.1.0"},
       {:credo, "~> 0.4", only: [:dev, :test]},
       {:ex_doc, "~> 0.14", only: :dev, runtime: false}
     ]
