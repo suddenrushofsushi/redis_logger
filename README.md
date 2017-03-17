@@ -28,6 +28,7 @@ You know what to do.
 
 - [ ] Expiration of log items
 - [ ] Add specs
+- [ ] Add documentation
 - [ ] Ensure Credo passes
 
 ## Tests or Contributions
